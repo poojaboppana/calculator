@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p>Basic Calculator that can perform simple arithmetic operations</p><br></body>br>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+         <div id="keys">
+            <button onclick="clearDisplay()" class="style">AC</button>
+            <button onclick="clearOne()" class="style">X</button>
+            <button onclick="operations('+')" class="style">+</button>
+            <button onclick="operations('%')" class="style">%</button>
+            <button onclick="operations('7')">7</button>
+
+            <button onclick="operations('8')">8</button>
+            <button onclick="operations('9')">9</button>
+            <button onclick="operations('-')" class="style">-</button>
+            
+            
+            <button onclick="operations('4')">4</button>
+            
+            <button onclick="operations('5')">5</button>
+            <button onclick="operations('6')">6</button>
+            <button onclick="operations('*')" class="style">*</button>
+           
+            
+            <button onclick="operations('1')">1</button>
+            <button onclick="operations('2')">2</button>
+           
+            
+            <button onclick="operations('3')">3</button>
+            <button onclick="operations('/')" class="style">/</button>
+            <button onclick="operations('.')">.</button>
+            <button onclick="operations('0')">0</button>
+        
+            <button onclick="calculate()" class="style">=</button>
+            
+            
+         </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
