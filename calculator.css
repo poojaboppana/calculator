@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     text-align: center;
-    background: url('calculator.png') center/cover no-repeat;
+    background: url('calculator/calculator.png') center/cover no-repeat;
 }
 p{
     text-align: left;
